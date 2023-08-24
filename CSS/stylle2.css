@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    body { min-height: 100vh; }
+   
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+.conteudo {
+    max-width:  100%;
+    /*largura maxima da pagina*/
+    margin: 0 auto;
+    /* 0, pra cima e pra baixo e largura altomatica*/
+    padding: 0 5%;
+}
+.menu2{
+    max-width:  100%;
+    /*largura maxima da pagina*/
+    margin: 0 auto;
+    /* 0, pra cima e pra baixo e largura altomatica*/
+    padding: 0 5%;
+}
+a{
+    text-decoration: none;
+}
+
+/*INICIO DO CABEÇALHO*/
+
+ nav { /* configuração da caixa com a logo e os icones*/
+    display: flex;
+    /*vai deixar os elementos do menu um do lado do outro*/
+    align-items: center;
+    /* vai centralizar os elementos do menu entre eles*/
+    justify-content: space-between;
+    /*espaço igual para todos os elementos do menu*/
+    padding-top: 30px; /* espaçamento apenas na parte cima do menu*/
+    padding: 20 50px;
+    background-color:  #277FBf;
+    
+   
+    
+}
+
+nav .logo{ /*tamanho das logos*/
+    max-width: 150px;
+    padding: 10px;
+}
+
+nav .icone{ /*tamanho dos iconess*/
+    max-width: 30px;
+}
+
+nav ul { /*posição dos icones*/
+    display: flex;
+    align-items: center;  
+    
+}
+
+nav ul a { /*configuração de espaço entre os icones*/
+    margin: 5px 10px;   
+}
+
+section ul a { /*configuração das letras do menu*/
+    font-size: 14px;
+    text-transform: uppercase;
+    /* todos os textos do menu vão ficar maiusculo*/
+    margin: 0 50px;
+    /*separar as palavras do menu*/     
+    color: #4D4D55;
+    text-align: center;
+    
+    
+}
+
+ul.menu{ /*configuração da caixa do menu*/
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    border-bottom: 1px #4D4D55 solid;
+    padding: 10px ; 
+          
+}
+
+#facasuaparte{ /*configuração botao*/
+    background-color: #277FBf ;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+}
+/*FIM DO CABEÇALHO*/
+
+
+/*--INICIO DO TEXTO INFORMATIVO*/
+
+#sustentabilidade{
+    color: red;
+    margin: 5px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #4D4D55
+}
+
+header, p {
+    color: #162440;
+    
+}
+
+.imagens{
+    width: 90%;
+    height: 30%;
+}  
+
+p, h5 {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#inicio {
+    font-size: 40px;
+}
+#salvador{
+    font-size: 13px;
+    color: #277FBF;
+    padding: 5px 0;
+}
+#publicado{
+    font-size:13px ;
+    padding: 5px 0;
+}
+section button{
+    margin: 10px 0;
+    
+}
+.legenda{
+    font-size: 15px;
+    font-style: italic;   
+    color: #162440;
+    margin: 5px 0;
+}
+h2{
+   color: #4D4D55;  
+   margin: 20px 0;
+}
+.texto{
+    line-height: 1.5;
+    text-align: justify;        
+}
+.coluna1{
+    float: right; 
+    padding:0 5%;
+    position: relative; /*vai variar com base no elemento anterior*/
+    width: 50%;
+    
+}
+
+.coluna2{
+    float: right; 
+    padding: 0 5%;
+    position: relative; /*vai variar com base no elemento anterior*/
+    width: 50%;
+    
+}
+.coluna3{
+    float: right; 
+    padding: 0 5%;
+    position: relative; /*vai variar com base no elemento anterior*/
+    width: 50%;
+    
+}
+
+.rodape{
+    margin-top: 5%;
+    padding: 20 25px;
+    background-color:  #277FBf;
+    
+
+     
+}
+.rodape p , h6{
+    font-size: 13px;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+}
+.imagens{
+    width: 90%;
+    height: 30%;
+}  
+ul a{
+    color: white;
+    font-size: 17px;
+    
+
+}
+.rodape{
+    text-align: center;
+ 
+}
+#subtitulo{
+    margin-top: 5%;
+    font-size: 20px;
+}
